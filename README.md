@@ -23,21 +23,23 @@ cd app_name
 wget -O - https://github.com/mizdra/parcel-frontend-skeleton/archive/master.tar.gz | tar xzvf - --strip=1
 
 ## Init project
-npx npm-check-updates -a
-yarn install --force
+rm yarn.lock
+yarn install
 yarn dev
 
 ```
 
 ## License
+
 MIT
 
 # app_name
+
 app_description
 
 ## How to dev
 
-- `yarn dev`: Start development server
-- `yarn check`: Try compile, lint, and format project
-- `yarn build`: Generate `dist` for production
-- `yarn deploy`: Deploy to netlify (need netlify account)
+- `yarn run dev`: Start development server
+- `yarn run check`: Try compile, lint, and format project
+- `yarn run build`: Generate `dist` for production
+- `yarn run deploy`: Deploy to netlify (need netlify account)
