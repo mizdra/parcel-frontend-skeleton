@@ -1,10 +1,10 @@
-import { Button, Icon, Layout, Menu } from 'antd'
-import React, { useState } from 'react'
+import { Button, Icon, Layout, Menu } from 'antd';
+import React, { useState } from 'react';
 
-const { Footer, Content, Sider } = Layout
+const { Footer, Content, Sider } = Layout;
 
 export function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <Layout>
@@ -37,5 +37,5 @@ export function App() {
       </Layout>
       <Footer>Footer</Footer>
     </Layout>
-  )
+  );
 }
